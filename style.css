@@ -9,6 +9,18 @@ body {
     font-family: sans-serif;
 }
 
+h2 {
+    font-size: 1.2vw;
+}
+
+h3 {
+    font-size: 0.9vw;
+}
+
+p {
+    font-size: 0.79vw;
+}
+
 .containter {
     width: 50%;
     margin-top: 25vh;
