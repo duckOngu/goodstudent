@@ -19,6 +19,7 @@ h3 {
 
 p {
     font-size: 0.79vw;
+    text-align: justify;
 }
 
 .containter {
@@ -143,6 +144,18 @@ button:focus {
     body {
         overflow: auto;
         height: auto;
+    }
+
+    h2 {
+        font-size: 10vw;
+    }
+    
+    h3 {
+        font-size: 7vw;
+    }
+    
+    p {
+        font-size: 4.4vw;
     }
 
     .containter {
