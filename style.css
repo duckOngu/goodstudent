@@ -118,6 +118,10 @@ button:focus {
     border-radius: 50px;
 }
 
+.int p {
+    text-align: center;
+}
+
 /* ===== Scrollbar CSS ===== */
 /* Firefox */
 * {
