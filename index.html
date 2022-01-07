@@ -31,7 +31,20 @@
         <div class="gs">
             <i> SINH VIÊN 5 TỐT </i>
         </div>
-        <div></div>
+        <div class="int">
+            <p><b>Nhấn vào mặt cười đê :></b></p>
+            <button onclick="go()">
+                <img id="s" src="before.png" width="50%"/>
+            </button>
+            <audio id="a" src="zz.m4a"></audio>
+        </div>
     </div>
+    <script>
+        function go(){
+            document.getElementById("s").src = "befor.gif";
+            document.getElementById("a").play();
+        }
+        document.getElementById("a").onended = function(){document.getElementById("s").src = "before.png";};    
+    </script>
 </body>
 </html>
